@@ -1,14 +1,25 @@
 * {
-  border: solid black 1px;
-  padding: 5px;
+  /* border: solid black 1px; */
+  margin: 0;
+  font-family: Calibri, sans-serif;
+}
+body {
+  padding: 0px;
 }
 
 .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1px;
 }
 
 .row > * {
   flex-grow: 1;
+}
+
+.primary {
+  padding: 16px;
+  background: linear-gradient(#025093, #025093);
+  color: white;
 }
