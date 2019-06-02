@@ -1,0 +1,44 @@
+.content {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.content article {
+  padding: 0 20px;
+}
+
+.content article header h1 {
+  margin: 20px 10px;
+  text-align: center;
+  color: #025093;
+  position: relative;
+  padding: 20px 0;
+}
+
+.content article header h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #434546;
+  opacity: 0.3;
+}
+
+.content article header h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #434546;
+  opacity: 0.3;
+}
+
+.content article header p {
+  color: #434546;
+  padding-bottom: 16px;
+}
